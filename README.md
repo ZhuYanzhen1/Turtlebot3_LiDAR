@@ -3,7 +3,21 @@
 **Describe: This is a tutorial of using gazebo to simulate navigation algorithm using LiDAR with SLAM algorithm on turtlebot3, which needs a powerful computing power. **
 
 ***
+##### Develop Environment
+
++ CPU: AMD Ryzen7 4800U  8C16T
++ GPU: AMD Radeon Graphics × 16 
++ Memory: 8GB * 2 DDR4 3200
++ Disk: SK Hynix 512GB SSD
++ Operating System: Ubuntu18.04.1
++ Linux Kernel:  5.4.0-52-generic
+
+***
+
+
+
 ##### Install Gazebo Components
+
 ```bash
 $sudo apt install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-msgs ros-melodic-gazebo-plugins ros-melodic-gazebo-ros-control
 $cd ~/.gazebo/ && mkdir -p models && cd models/
